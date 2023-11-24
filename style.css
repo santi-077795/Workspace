@@ -1,12 +1,24 @@
 body {
-    background-color:black
+    background-color: turquoise
 }
+
+/*si quisiera editar un texto en específico, tendía que poner una clase utilizando el "." con el tipo de etiqueta antes del mismo*/
 p {
-    color:rgb(159, 159, 159);
+    color:rgb(254, 112, 60); font size: 24px;
 }
-h1 {
-    color:white; text-align: center;
+
+#Título {
+    color:orangered; text-align: center;
 }
+
+/*si quisiera seleccionar solo las etiquetas que esten dentro de otras en específico, tendría que ponerlas con un espacio (Ej: "div p")*/
 h2 {
-    color:white; text-align: justify;
+    color:orangered; font-size: 30px;
 }
+
+h1 {
+    font-size: 40px;
+}
+
+/*si quisiera seleccionar todos los elementos, tengo que usar el selector "*", aunque no cambia lo que ya fue cambiado antes en CSS*/
+
