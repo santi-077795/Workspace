@@ -1,19 +1,19 @@
 body {
-    background-color: turquoise
+    background-color: whitesmoke
 }
 
 /*si quisiera editar un texto en específico, tendía que poner una clase utilizando el "." con el tipo de etiqueta antes del mismo*/
 p {
-    color:rgb(254, 112, 60); font size: 24px;
+    color:rgb(53, 53, 53); font size: 24px;
 }
 
 #Título {
-    color:orangered; text-align: center;
+    color:black; text-align: center;
 }
 
 /*si quisiera seleccionar solo las etiquetas que esten dentro de otras en específico, tendría que ponerlas con un espacio (Ej: "div p")*/
 h2 {
-    color:orangered; font-size: 30px;
+    color:black; font-size: 30px;
 }
 
 h1 {
