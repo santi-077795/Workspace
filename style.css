@@ -1,5 +1,5 @@
 body {
-    background-color: whitesmoke
+    background-color: white
 }
 
 /*si quisiera editar un texto en específico, tendía que poner una clase utilizando el "." con el tipo de etiqueta antes del mismo*/
@@ -22,3 +22,34 @@ h1 {
 
 /*si quisiera seleccionar todos los elementos, tengo que usar el selector "*", aunque no cambia lo que ya fue cambiado antes en CSS*/
 
+.Post {
+    width: 500px; border: 1px black solid; text-align:center;
+}
+
+a {
+    text-decoration: none; color: white; font-size: 30px; font-weight: bold;
+}
+
+img {
+    border: 1px solid black;
+}
+
+.LinkInicio {
+    color: white; background-color: black; margin-left: 25px;
+}
+
+.Contacto {
+    margin-left:25px;
+}
+
+.Derechos {
+    margin-left:25px; color: grey;
+}
+
+div footer {
+    padding-bottom: 5px; padding-top: 20px;
+}
+
+div footer div {
+    position: fixed; bottom: 0; width: 100%;
+}
