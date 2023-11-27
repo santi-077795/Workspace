@@ -36,24 +36,21 @@ img {
 }
 
 .LinkInicio {
-    color: white; background-color: black;margin-bottom:25px; margin-left: 25px;
+    color: white; background-color: black;margin-bottom:690px; margin-left: 15px;
     padding:10px; border-radius:5px; font-size:18px;
+    position: fixed; bottom: 0;
 }
 
 .Contacto {
-    text-align:center;
+    font-family:Raleway;
 }
 
 .Derechos {
-    margin-left:50px; color: grey;
+    color: grey;
 }
 
-div footer {
-    padding-bottom:5px;
-}
-
-div div {
-    position: fixed; bottom: 0; margin-bottom:690px; margin-left:-10px;
+footer {
+    padding-bottom:5px; padding-top:15px; background-color: black; text-align:center;
 }
 
 .BarraVerticalIzq {
