@@ -4,7 +4,7 @@ body {
 
 /*si quisiera editar un texto en específico, tendía que poner una clase utilizando el "." con el tipo de etiqueta antes del mismo*/
 p {
-    color:rgb(53, 53, 53); font size: 24px;
+    color:rgb(53, 53, 53); font-size: 20px;
 }
 
 #Título {
@@ -17,13 +17,14 @@ h2 {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 40px; text-align:center;
 }
 
 /*si quisiera seleccionar todos los elementos, tengo que usar el selector "*", aunque no cambia lo que ya fue cambiado antes en CSS*/
 
 .Post {
-    width: 500px; border: 1px black solid; text-align:center;
+    width: 500px; border: 5px black outset; text-align:center;
+    background-color:whitesmoke; border-radius: 8%;
 }
 
 a {
@@ -40,21 +41,31 @@ img {
 }
 
 .Contacto {
-    margin-left:25px;
+    text-align:center;
 }
 
 .Derechos {
-    margin-left:25px; color: grey;
+    margin-left:50px; color: grey;
 }
 
 div footer {
-    padding-bottom: 5px; padding-top: 20px;
+    padding-bottom:5px;
 }
 
-section div div {
+div div {
     position: fixed; bottom: 0; margin-bottom:690px; margin-left:-10px;
 }
 
 .BarraVerticalIzq {
-    margin-left:-160px; position:fixed; z-index:999; bottom: 0; background-color:aquamarine;
+    margin-left:-110px; position:fixed; z-index:999; bottom: 0;
+    background-color:rgb(113, 113, 113); border-right: 3px solid black;
+}
+
+body {
+    background-image: url('img/Patrón-blanco-y-negro-1.jpg'); background-size: auto;
+}
+
+#Título {
+    width:400px; background-color:whitesmoke; background-size:auto; margin-left:300px;
+    border-radius:5%; border: 1px solid black;
 }
